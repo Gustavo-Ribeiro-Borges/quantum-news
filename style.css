@@ -1,0 +1,263 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff /* Fundo branco */
+}
+
+header {
+  background-color: #3296F7;
+  color: #ffffff;
+  padding: 15px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.report-title {
+  font-size: 2em;
+  margin-bottom: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.report-author,
+.report-date {
+  font-size: 0.9em;
+  color: #888;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.report-content {
+  margin-top: 20px;
+  line-height: 1.6;
+  font-size: 1.1em;
+}
+
+footer {
+  background-color: #f4f4f4;
+  color: #323232; /* Texto no rodapé em #323232 */
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.quote {
+  font-style: italic;
+  margin: 20px 0;
+  background-color: #ffffff;
+  padding: 10px;
+  border-left: 5px solid #3296F7;
+}
+
+.imagem-com-texto .texto {
+  font-size: 35px;
+  color: #323232;
+  text-shadow: 1px 1px 2px #323232;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.botao {
+  background-color: white;
+  border: 6px solid #3296F7;
+  color: #323232;
+  padding: 10px 20px; /* Ajustei o padding */
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: lightblue;
+}
+
+.header {
+  background-color: #3296F7;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 35px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  background-color: #3296F7;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.menu ul li {
+  margin-right: 15px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.article {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.article-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.article-content {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.custom-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #3296F7;
+  color: white;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s;
+}
+
+.custom-button:hover {
+  background-color: #005a99;
+}
+
+.button-image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.button-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-title {
+  font-size: 16px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.button-subtitle {
+  font-size: 14px;
+  margin: 5px 0 0;
+}
+.image-container {
+  display: flex;
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+  align-items: center; /* Centraliza verticalmente, se necessário */
+  gap: 10px; /* Espaço entre as imagens */
+  padding: 20px; /* Espaçamento interno para manter margem da página */
+}
+
+.side-by-side-image {
+  max-width: 200px; /* Ajuste a largura das imagens */
+  height: auto; /* Mantém a proporção das imagens */
+  border-radius: 5px; /* Bordas arredondadas, opcional */
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative; /* Para posicionamento absoluto da imagem direita */
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-right-image {
+  position: absolute;
+  right: 8px; /* Ajusta a distância do canto direito */
+  top: 50%; /* Centraliza verticalmente a imagem */
+  transform: translateY(-50%); /* Ajusta a imagem para o centro verticalmente */
+}
+
+.header-right-image img {
+  max-width: 100px; /* Ajuste o tamanho conforme necessário */
+  height: auto;
+}

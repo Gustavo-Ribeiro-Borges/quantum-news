@@ -1,0 +1,380 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3296F7 ;
+    }
+    header {
+    background-color: #3296F7 ;
+    color: #f5ebeb;
+    padding: 15px 0;
+    text-align: center;
+    }
+    header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    }
+    .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .report-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    }
+    .report-author {
+    font-size: 0.9em;
+    color: #888;
+    }
+    .report-date {
+    font-size: 0.9em;
+    color: #888;
+    }
+    .report-content {
+    margin-top: 20px;
+    line-height: 1.6;
+    font-size: 1.1em;
+    }
+    footer {
+    background-color: #f4f4f4;
+    color: #323232;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    }
+    footer p {
+    margin: 0;
+    }
+    .image-container {
+    text-align: center;
+    margin: 20px 0;
+    }
+    .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    }
+    .quote {
+    font-style: italic;
+    margin: 20px 0;
+    background-color: #ebe6e6;
+    padding: 10px;
+    border-left: 5px solid #3296F7 ;
+    }
+    .imagem-com-texto .texto {
+        font-size: 35px; /* Aumenta o tamanho do texto para 32 pixels */
+        color: black; 
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Times New Roman', Times, serif; 
+    }
+    body {
+        background-color: rgb(240, 230, 230);
+    }
+    .botao {
+        background-color: #3296F7; /* Cor de fundo do botão */
+        border: 8px solid #3296F7 ; /* Borda azul */
+        color: black; /* Cor do texto */
+        padding: absolute; /* Espaçamento interno */
+        font-size: 16px; /* Tamanho da fonte */
+        cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+        border-radius: 5px; /* Bordas arredondadas */
+        transition: background-color 0.3s; /* Transição suave para mudança de cor */
+    }
+    
+    .botao:hover {
+        background-color: lightblue; /* Cor de fundo ao passar o mouse */
+    }
+    body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+     
+      .header {
+        background-color: #3296F7 ;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #eee;
+      }
+     
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+     
+      .logo img {
+     
+        height: 35px;
+        margin-right: 10px;
+      }
+     
+      .logo h1 {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: 0;
+      }
+     
+      .header-right {
+        display: flex;
+        align-items: center;
+      }
+     
+      .header-right .email {
+        background-color: #f00;
+        color: #fff;
+        padding: 8px 15px;
+        border-radius: 5px;
+        margin-right: 15px;
+        text-decoration: none;
+      }
+     
+      .header-right .pagbank {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+      }
+     
+      .header-right .pagbank img {
+        height: 20px;
+        margin-right: 5px;
+      }
+     
+      .header-right .pagbank .values {
+        display: flex;
+        align-items: center;
+      }
+     
+      .header-right .pagbank .values span {
+        margin-right: 10px;
+      }
+     
+      .header-right .weather {
+        display: flex;
+        align-items: center;
+        margin-right: 15px;
+      }
+     
+      .header-right .weather img {
+        height: 20px;
+        margin-right: 5px;
+      }
+     
+      .header-right .weather .temp {
+        margin-right: 10px;
+      }
+     
+      .header-right .search {
+        background-color: #fff;
+        border: 1px solid #eee;
+        padding: 8px 15px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+      }
+     
+      .header-right .search img {
+        height: 15px;
+        margin-right: 5px;
+      }
+     
+      .header-right .search input {
+        border: none;
+        background-color: transparent;
+        font-size: 14px;
+        margin: 0;
+        padding: 0;
+      }
+     
+      .menu {
+        background-color: #3296F7;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      
+      .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+      
+      .menu ul li {
+        margin-right: 15px;
+      }
+      
+      .menu ul li a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: bold;
+      }
+     
+      .content {
+        padding: 20px;
+      }
+     
+      .title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+     
+      .article {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+      }
+     
+      .article-title {
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+     
+      .article-content {
+        font-size: 14px;
+        line-height: 1.5;
+      }
+      .imagem-com-texto .texto {
+        font-size: 35px; /* Aumenta o tamanho do texto para 32 pixels */
+        color: black;
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    body {
+        background-color: rgb(255, 248, 248);
+        color: #030303;
+    }
+    .botao {
+        background-color: #3296F7; /* Cor de fundo do botão */
+        border: 6px solid #3296F7 ; /* Borda azul */
+        color: black; /* Cor do texto */
+        padding: absolute; /* Espaçamento interno */
+        font-size: 16px; /* Tamanho da fonte */
+        cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+        border-radius: 5px; /* Bordas arredondadas */
+        transition: background-color 0.3s; /* Transição suave para mudança de cor */
+    }
+     
+    .botao:hover {
+        background-color: #3296F7; /* Cor de fundo ao passar o mouse */
+    }
+    
+    .custom-button {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        border: none; 
+        border-radius: 10px;
+        background-color: #3296F7 ;
+        color: white;
+        cursor: pointer;
+        text-align: left;
+        transition: background-color 0.3s;
+    }
+
+    .link-sem-sublinhado{
+      text-decoration: none;
+    }
+    
+    .custom-button:hover {
+        background-color: #005a99;
+    }
+    
+    .button-image {
+      max-width: 150px;
+      height: auto;
+      margin-right: 20px;
+    }
+    
+    .button-content {
+        display: flex;
+        flex-direction: column; 
+    }
+    
+    .button-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .button-subtitle {
+      font-size: 16px;
+      color: #fff;
+    }
+    .article {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+  }
+  
+  .left-video {
+      flex: 1;
+      margin-right: 20px;
+  }
+  
+  .video-loop {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+  
+  .article-content {
+      display: flex;
+      flex-direction: column;
+      flex: 1.5;
+  }
+  
+  .article-image-text {
+      display: flex; /* Alinha a imagem e o texto lado a lado */
+      align-items: center; /* Alinha verticalmente no centro */
+  }
+  
+  .article-image {
+      width: 200px; /* Largura da imagem */
+      height: auto;
+      margin-right: 20px; /* Espaço entre a imagem e o texto */
+      border-radius: 5px;
+  }
+  
+  .article-text {
+      flex: 1;
+      font-size: 17px;
+  }
+  
+  .article-text h1 {
+      margin: 0 0 10px 0;
+  }
+  
+  .article-text p {
+      line-height: 1.6;
+  }
+  .latest-articles-section {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.latest-articles-section h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000; /* Cor do texto */
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-transform: uppercase; /* Texto em maiúsculas */
+    border-bottom: 2px solid #000; /* Linha abaixo do título */
+    display: inline-block;
+}
