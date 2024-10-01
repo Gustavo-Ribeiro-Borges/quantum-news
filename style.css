@@ -5,16 +5,10 @@ body {
   background-color: #fff /* Fundo branco */
 }
 
-header {
-  background-color: #3296F7;
-  color: #ffffff;
-  padding: 15px 0;
-  text-align: center;
-}
-
 header h1 {
   margin: 0;
   font-size: 2.5em;
+  color: white;
 }
 
 .container {
@@ -29,13 +23,6 @@ header h1 {
 .report-title {
   font-size: 2em;
   margin-bottom: 10px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.report-author,
-.report-date {
-  font-size: 0.9em;
-  color: #888;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -260,4 +247,8 @@ footer p {
 .header-right-image img {
   max-width: 100px; /* Ajuste o tamanho conforme necessário */
   height: auto;
+}
+
+.image-container {
+  border-radius: 15px;
 }
