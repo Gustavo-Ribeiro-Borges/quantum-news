@@ -253,3 +253,7 @@ footer p {
 .image-container {
   border-radius: 15px;
 }
+
+a:hover {
+  text-decoration: underline;
+}
