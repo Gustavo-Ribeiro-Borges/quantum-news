@@ -8,9 +8,9 @@ body {
     background-color: #3296F7 ;
     color: #f5ebeb;
     padding: 15px 0;
-    text-align: center;
+    text-align: center;    
     }
-    header h1 {
+    header > h1 {
     margin: 0;
     font-size: 2.5em;
     }
@@ -18,9 +18,10 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: #ffffff;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #3296F7 ;
+    border-radius: 10px;
     }
     .report-title {
     font-size: 2em;
@@ -284,6 +285,7 @@ body {
         cursor: pointer;
         text-align: left;
         transition: background-color 0.3s;
+        
     }
 
     .link-sem-sublinhado{
@@ -377,4 +379,9 @@ body {
     text-transform: uppercase; /* Texto em maiúsculas */
     border-bottom: 2px solid #000; /* Linha abaixo do título */
     display: inline-block;
+}
+
+.article, .container {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
 }
