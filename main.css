@@ -8,9 +8,9 @@ body {
     background-color: #3296F7 ;
     color: #f5ebeb;
     padding: 15px 0;
-    text-align: center;
+    text-align: center;    
     }
-    header h1 {
+    header > h1 {
     margin: 0;
     font-size: 2.5em;
     }
@@ -18,10 +18,17 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
+<<<<<<< HEAD
     background-color: #3296F7;
     padding: 20px;
     box-shadow: 1px 4px 8px rgba(0,0,0,0.1);
     border-radius: 8px;
+=======
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: #3296F7 ;
+    border-radius: 10px;
+>>>>>>> 5092e9c383a499d2226ef6ecd16b6f376335bed1
     }
     .report-title {
     font-size: 2em;
@@ -107,7 +114,7 @@ body {
         display: flex;
         align-items: center;
       }
-     
+
       .logo img {
      
         height: 35px;
@@ -224,6 +231,10 @@ body {
         font-size: 14px;
         margin: 0px 0px 0px 0px;
       }
+
+      .menu > li:hover {
+        text-decoration: underline;
+      }
      
       .content {
         padding: 20px;
@@ -293,6 +304,7 @@ body {
         cursor: pointer;
         text-align: left;
         transition: background-color 0.3s;
+        
     }
 
     .link-sem-sublinhado{
@@ -362,6 +374,7 @@ body {
   .article-text {
       flex: 1;
       font-size: 17px;
+      font-family: sans-serif;
   }
   
   .article-text h1 {
@@ -390,10 +403,16 @@ body {
     display: inline-block;
 }
 
+<<<<<<< HEAD
 nav > ul > li > a:hover {
     text-decoration: underline;
 }
 
 ul {
   color: #fff;
+=======
+.article, .container {
+  box-shadow: 1px 1px 1px 2px rgba(0,0,0,0.1);
+  border-radius: 10px;
+>>>>>>> 5092e9c383a499d2226ef6ecd16b6f376335bed1
 }
