@@ -18,9 +18,10 @@ body {
     width: 80%;
     margin: auto;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: #3296F7;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 1px 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
     }
     .report-title {
     font-size: 2em;
@@ -116,8 +117,17 @@ body {
       .logo h1 {
         font-size: 24px;
         font-weight: bold;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         margin: 0;
+      }
+
+      h1 > a {
+        text-decoration: none;
+        color: #fff;
+      }
+
+      h1 > a:hover {
+        text-decoration: underline;
       }
      
       .header-right {
@@ -195,7 +205,6 @@ body {
         background-color: #3296F7;
         padding: 15px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
       }
       
@@ -206,15 +215,14 @@ body {
         display: flex;
       }
       
-      .menu ul li {
-        margin-right: 15px;
-      }
       
       .menu ul li a {
         text-decoration: none;
         color: #ffffff;
-        font-size: 14px;
         font-weight: bold;
+        padding: 12px 12px 12px 12px;
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
       }
      
       .content {
@@ -230,9 +238,10 @@ body {
       .article {
         background-color: #fff;
         padding: 20px;
-        border-radius: 5px;
+        border-radius: 10px;
         margin-bottom: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif;
+        box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.037);
       }
      
       .article-title {
@@ -357,10 +366,12 @@ body {
   
   .article-text h1 {
       margin: 0 0 10px 0;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
   
   .article-text p {
       line-height: 1.6;
+      font-family: Arial, Helvetica, sans-serif;
   }
   .latest-articles-section {
     text-align: center;
@@ -373,8 +384,16 @@ body {
     font-weight: bold;
     color: #000; /* Cor do texto */
     margin-bottom: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-transform: uppercase; /* Texto em maiúsculas */
     border-bottom: 2px solid #000; /* Linha abaixo do título */
     display: inline-block;
+}
+
+nav > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+ul {
+  color: #fff;
 }
