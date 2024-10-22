@@ -7,7 +7,7 @@
 <p align="left">
   <ol>
     <li>Layout Clean: Design agradável conforme a paleta de cores.</li>
-    <li>Estrutura Semântica: Utilização de tags HTML5, como <header>, <nav>, <section>, e <footer>, para melhorar a organização e acessibilidade do conteúdo.</li>
+    <li>Estrutura Semântica: Utilização de tags HTML5, como 	&lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, e &lt;footer&gt;, para melhorar a organização e acessibilidade do conteúdo.</li>
     <li>Estilização com CSS: Uso de classes e IDs para aplicar estilos personalizados, como cores, fontes e espaçamento.</li>
     <li>Links e Imagens: Implementação de links navegáveis e imagens ilustrativas para enriquecer o conteúdo.</li>
     <li>Múltiplas Páginas: Navegação entre páginas via botões.</li>
